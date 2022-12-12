@@ -13,6 +13,22 @@ export const bscTestnetTokens = {
     'SyrupBar Token',
     'https://pancakeswap.finance/',
   ),
+  MyToken: new ERC20Token(
+    ChainId.BSC_TESTNET,
+    '0xA25Fb09a638219db63C5A5227F21e38273aF5343',
+    18,
+    'MTK',
+    'MyToken',
+    '',
+  ),
+  Bahcesehir: new ERC20Token(
+    ChainId.BSC_TESTNET,
+    '0xf0eBcb6Ae9352f5bf5350A663FbC3AD01dA34f49',
+    18,
+    'BAU',
+    'Bahcesehir Token',
+    '',
+  ),
   bake: new ERC20Token(
     ChainId.BSC_TESTNET,
     '0xE02dF9e3e622DeBdD69fb838bB799E3F168902c5',
